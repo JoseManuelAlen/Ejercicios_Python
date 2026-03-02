@@ -4,5 +4,5 @@ var = "Hola"
 
 if type(var) == int:
     print("Entero")
-else:
+elif type(var) == str:
     print("Cadena de caracteres")
